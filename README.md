@@ -2,11 +2,7 @@
 
 A real-time computer vision system designed to automatically identify weapons in CCTV video streams using deep learning.
 
-[![Python](https://img.shields.io/badge/Python-0.9%25-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-95.8%25-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Last Updated](https://img.shields.io/badge/Last_Update-Feb_4,_2026-green.svg)](https://github.com/AnsariSaad83299/Weapon-Detection-from-Live-CCTV-Feed)
-[![Status](https://img.shields.io/badge/Status-Active-2ecc71.svg)](https://github.com/AnsariSaad83299/Weapon-Detection-from-Live-CCTV-Feed/commits/main)
+
 
 ## 🎯 Overview
 
