@@ -40,12 +40,11 @@ def gen():
         return
     
     fps = int(video_capture.get(cv2.CAP_PROP_FPS))
-    frame_interval = fps // 1  #1 is 1 frame per second
+    frame_interval = fps // 1  
     frame_count = 0
 
 
     while True:
-        # Read the next frame
         ret, frame = video_capture.read()
 
         if not ret:
@@ -63,7 +62,7 @@ def gen():
                     y= int(y.item()) -5
                     w= int(w.item())
                     h= int(h.item())
-                    cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 1)  # Draw bounding box 
+                    cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 1)   
 
                 save_path = os.path.join("temp", f"frame_{frame_count}.jpg")
                 cv2.imwrite(save_path, frame)
